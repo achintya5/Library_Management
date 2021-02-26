@@ -1,9 +1,9 @@
 # create a library class
-# define methods to display all books(display book),
-# lend books (lend book), donate books(add book)
-# return book,
+# define methods to display all books,
+# lend books, donate books and
+# return books
 
-# dictionary to store name of books and who has borrowed them
+# create a dictionary to store the name of the book borrowed and the person who has borrowed it.
 
 class Library:
     def __init__(self, books, lib_name):
